@@ -1,0 +1,35 @@
+.modal-main-wrap{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    right: 0;
+}
+
+.buttonPrimary{
+    border: none;
+      padding: 1em 2em;
+      background: #299d8f;
+      color: #fff;
+      font-size: 0.9rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      border-radius: 2px;
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+  }
+  .buttonPrimary:focus{
+    outline: none;
+  }
+  .buttonPrimary:disabled{
+      opacity: 0.5;
+      cursor: auto;
+  }
+  .pad1em{
+    padding: 1em;
+  }

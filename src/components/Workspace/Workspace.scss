@@ -1,0 +1,122 @@
+.workspace-main-wrap {
+    width: 68%;
+    margin-left: 15%;
+    padding: 1em;
+    margin-top: 80px;
+    position: relative;
+    background: #f8f8f8;
+    height: calc(100vh - 80px);
+    border: 36px solid #fff;
+    box-sizing: border-box;
+    overflow-y:auto;
+    input{
+        border-top: 1px solid ;
+      }
+}
+
+.toolBar-wrap{
+    width: 15%;
+    background: #E2EAEF;
+}
+
+.data-modal-content-wrap{
+    background: #fff;
+    width: 40%;
+    padding: 1em;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    max-height: 650px;
+    overflow-y: auto;
+    label{
+        padding: 1em 0em;
+    }
+    input{
+        padding: 1em;
+        margin: 1em 0em;
+    }
+    button{
+    width: fit-content;
+    align-self: flex-end; 
+    }
+    .close-cross{
+        align-self: flex-end;
+        cursor: pointer;
+    }
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #E53500;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin .5s linear infinite;
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  .loader-bg{
+      background-color:  rgba(0,0,0,0.1) !important;
+  }
+
+  .error-msg{
+      color: #E0301E;
+      font-size: 10px;
+  }
+  .payload-key-wrap{
+    display: flex;
+    align-items: center;
+    .radio-wrap{
+        margin-left: 1em;
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .radio-label{
+            margin-left: 7px;
+        }
+        .radio-input{
+            vertical-align: middle;
+            cursor: pointer;
+        }
+    }
+  }
+  .key-value-array-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .key-wrap{
+        width: 45%;
+        display: flex;
+        align-items: center;
+        input{
+            padding: 0.5em;
+            width: 150px;
+            margin-left: 10px;
+        }
+    }
+    .add-btn{
+        width: 100%;
+        display: flex;
+    justify-content: flex-end;
+    }
+  }
+  .loader-key{
+    border: 6px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 6px solid #006652;
+    width: 20px;
+    height: 20px;
+  }
+  .plus-icon{
+    color: #d93954;
+    font-size: 30px;
+  }
+  .add-btn-icon-wrap{
+      width: 5%;
+  }

@@ -1,0 +1,14 @@
+.list-items-wrap:hover{
+    background: #E2EAEF;
+}
+.list-items-wrap{
+    display: flex;
+    align-items: center;
+    padding: 1em 0 1em 1em;
+    cursor: pointer;
+    svg{
+        color: #073D68;
+        font-size: 18px;
+    margin-top: 4px;
+    }
+}

@@ -1,0 +1,75 @@
+@import "../../scss/theme.scss";
+
+.fixed {
+    position: fixed;
+    width: 17%;
+    z-index: 99;
+    right: 0px;
+    top: 80px;
+    padding: 1em;
+    bottom: 0;
+    overflow-y: auto;
+overflow-x: hidden;
+    .btn-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    button {
+        margin-bottom: 1em;
+    }
+
+    .mtop {
+        margin-top: 1em;
+    }
+
+    .nav-tabs {
+        border-bottom: 1px solid #000;
+    }
+
+    .nav-tabs .nav-link:hover,
+    .nav-tabs .nav-link:focus {
+        border-bottom-color: #000;
+    }
+
+    a#uncontrolled-tab-example-tab-styles {
+        color: $primary-text-color;
+    }
+    a#uncontrolled-tab-example-tab-props{
+        color: $primary-text-color;
+
+    }
+}
+.color-hex-input-wrap{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    input{
+        padding: 0px !important;
+    }
+    .color-block{
+        height: 30px;
+    width: 60px;
+    border: 5px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+}
+.fixed::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.fixed::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.fixed::-webkit-scrollbar-thumb {
+  background: $primary-text-color; 
+}
+
+/* Handle on hover */
+.fixed::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}

@@ -1,0 +1,103 @@
+{
+    "componentList": [
+        {
+            "name": "",
+            "index": ""
+        }
+    ],
+    "tableData": [
+        {
+            "defaultData": [
+                {
+                    "column1": "cell1",
+                    "column2": "cell2"
+                },
+                {
+                    "column1": "cell3",
+                    "column2": "cell4"
+                }
+            ],
+            "styleObj": {
+                "background": "",
+                "color": "",
+                "font-size": ""
+            }
+        }
+    ],
+    "dropDowndata": [
+        {
+            "defaultOptions": [
+                {
+                    "value": "option1"
+                }
+            ],
+            "styleObj": {
+                "background": "",
+                "color": "",
+                "font-size": ""
+            }
+        }
+    ],
+    "cardData": [
+        {
+            "defaultData": {
+                "isCardImg": false,
+                "cardImgSrc": "../../assets/images/addImage.png",
+                "cardSubTitle": "Card Subtitle",
+                "cardTitle": "Card Title",
+                "cardText": "Card Description",
+                "cardBorderColor":"secondary",
+                "isImgOveralay":false
+            },
+            "styleObj": {
+                "background": "",
+                "color": "",
+                "font-size": ""
+            }
+        }
+    ],
+    "badgeData": [
+        {
+            "defaultData": {
+                "variant": "primary",
+                "badgeText": "primary"
+            },
+            "styleObj": {
+                "background": "",
+                "color": "",
+                "font-size": ""
+            }
+        }
+    ],
+    "accordData": [
+        {
+            "defaultData": {
+                "AccordionBody": "Accordion Body",
+                "AccordionTitle": "Accordion Title"
+            },
+            "styleObj": {
+                "background": "",
+                "color": "",
+                "font-size": ""
+            }
+        }
+    ],
+    "inputProps": [
+        {
+            "styleObj": {
+                "background": "",
+                "color": "",
+                "font-size": ""
+            }
+        }
+    ],
+    "buttonProps": [
+        {
+            "styleObj": {
+                "background": "",
+                "color": "",
+                "font-size": ""
+            }
+        }
+    ]
+}
